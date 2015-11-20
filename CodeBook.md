@@ -46,20 +46,29 @@ From the data set in step 4, creates a second, independent tidy data set with th
 
 #VARIABLES
 path_DataFiles<-file.path(getwd(),"UCI HAR Dataset")
+
 path_TestFiles<-file.path(path_DataFiles, "test")
+
 path_TrainFiles<-file.path(path_DataFiles, "train")
 
-#Read required files from working directory to data frames
-
 path_DataFiles - path to UCI HAR Dataset folder
-path_TestFiles - path to test folder
-path_TrainFiles - path to train folder
-df_FeatureNames - List of feature names
-df_ActivityLabels - List of activity lables
-df_Y_Test - Y_test.txt data
-df_Y_Train - Y_train.txt data
-df_Subject_Train - subject_train.txt data
-df_Subject_Test  - subject_test.txt data
-df_X_Test  - X_test.txt data
-df_X_Train - X_train.txt data
 
+path_TestFiles - path to test folder
+
+path_TrainFiles - path to train folder
+
+df_FeatureNames - List of feature names
+
+df_ActivityLabels - List of activity lables
+
+df_Y_Test - Y_test.txt data
+
+df_Y_Train - Y_train.txt data
+
+df_Subject_Train - subject_train.txt data
+
+df_Subject_Test  - subject_test.txt data
+
+df_X_Test  - X_test.txt data
+
+df_X_Train - X_train.txt data
